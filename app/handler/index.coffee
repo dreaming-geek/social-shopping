@@ -1,0 +1,15 @@
+handler =
+  pages: require './pages'
+  users : require './users'
+  brand: require './brand'
+  role: require './role'
+  persona: require './persona'
+  feedback: require './feedback'
+  store: require './store'
+  group: require './group'
+  loginLog: require './loginLog'
+  event: require './event'
+  deal: require './deal'
+  like: require './like'
+  comment: require './comment'
+module.exports = handler

@@ -1,0 +1,18 @@
+{
+  "name": "REST-node-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "EmberJs app REST with HapiJS Node backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Williams",
+  "dependencies": {
+    "bell": "~1.1.0",
+    "coffee-script": "~1.7.1",
+    "good": "^2.2.3",
+    "hapi": "~6.6.0",
+    "mongoose": "~3.8.15"
+  }
+}

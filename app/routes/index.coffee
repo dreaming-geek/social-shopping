@@ -1,0 +1,15 @@
+routes = (server) ->
+  pages: require('./pages')(server)
+  users: require('./users')(server)
+  brand: require('./brand')(server)
+  role: require('./role')(server)
+  persona: require('./persona')(server)
+  feedback: require('./feedback')(server)
+  store: require('./store')(server)
+  group: require('./group')(server)
+  loginlog: require('./loginLog')(server)
+  event: require('./event')(server)
+  deal: require('./deal')(server)
+  like: require('./like')(server)
+  comment: require('./comment')(server)
+module.exports = routes
